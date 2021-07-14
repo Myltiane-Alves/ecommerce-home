@@ -1,0 +1,40 @@
+.category .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.category .box-container .box{
+    height: 30rem;
+    flex:1 1 40rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow:hidden;
+}
+
+.category .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.category .box-container .box:hover img{
+    transform: scale(1.1);
+}
+
+.category .box-container .content{
+    position: absolute;
+    bottom: 7rem; left:2rem;
+}
+
+.category .box-container .content span{
+    font-size: 2rem;
+    color:var(--orange);
+}
+
+.category .box-container .content h3{
+    font-size: 3rem;
+    color:#3337;
+    text-transform: uppercase;
+    padding-top: .5rem;
+}

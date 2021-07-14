@@ -1,0 +1,31 @@
+.home{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+}
+
+.home .content{
+    flex:1 1 40rem;
+}
+
+.home .image{
+    flex:1 1 40rem;
+    text-align: center;
+}
+
+.home .image img{
+    width:30vw;
+}
+
+.home .content span{
+    color:var(--orange);
+    font-size: 3rem;
+}
+
+.home .content h3{
+    color:var(--black-color);
+    font-size: 8rem;
+    text-transform: uppercase;
+}
